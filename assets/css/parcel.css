@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+.backgroundImg {
+    background-color: black;
+}
+.text-Kanit {
+  font-family: "Kanit";
+}
+.textCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Kanit";
+}
+.textHender {
+    padding-top: 20%;
+    background-color: blanchedalmond;
+}
+.hero-image {
+    background-image: url("../img/background/black.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size:250%;
+    font-family: 'Kanit';
+    font-weight:bold;
+  }
+
+  .zoom {
+    /* background-color: green; */
+    transition: transform .2s;
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+    
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .imgCenterParcel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    right: 100%;
+    left: 100%;
+    padding: 0%;
+    padding-bottom: 0%;
+  }
+  .zeroPadding {
+    margin: 0%;
+    padding: 0%;
+  }
+  .textButtom {
+      color: rgb(241, 20, 20);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Kanit';
+    
+  }
+  .w3-btn {
+      margin-bottom:10px;
+      justify-content: center;
+      align-items: center;
+    }
+  .text-redcheck {
+    font-size: 150%;
+    font-family: "Kanit" ;
+    color: red;
+    font-weight:bold;
+  }

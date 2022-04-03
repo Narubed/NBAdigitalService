@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+.center {
+    display: block;
+  margin-left: 75px;
+  margin-right: auto;
+  width: 100%;
+}
+.centerVideo {
+  display: block;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+/* margin-top: 5%;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 5%; */
+}
+.centerText {
+  text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.redfontEng {
+    color: #EB566C;
+    font-size: 180%;
+    font-family: Copperplate, Papyrus, fantasy;
+    margin: 0% 0% 4% 0%;
+    /* text-align :center; */
+}
+.redfontThai {
+    color: #EB566C;
+    font-size: 150%;
+    font-family: 'Kanit';
+    margin: 0% 0% 4% 0%;
+    /* text-align :center; */
+}
+/* * {
+font-family: 'Kanit';
+} */
+/* ------------------------------------------------ */
+.mySlides {display:none;
+padding: 10px;
+color:black;
+}
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
